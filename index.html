@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <!-- Link to your profile picture -->
+            <img src="profile.jpeg" alt="My Profile Picture" class="profile-img">
+            <h1>Hi, I'm <span class="highlight">Prasanthkumar Ponnada</span></h1>
+            <p>Machine Learning Engineer | Problem Solver | Tech Enthusiast</p>
+            <!-- Link to your downloadable PDF resume -->
+            <a href="resume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>AI/ML Engineer with hands-on experience in Python, Machine Learning, NLP, and Generative AI, with a strong academic foundation in Artificial Intelligence. Experienced in developing end-to-end ML solutions including customer sentiment analysis, CSAT prediction, topic modeling, recommendation systems, and AI-powered applications. Proficient in developing, evaluating, and deploying machine learning models with a focus on practical business applications.</p>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="container bg-light">
+        <h2>Experience & Education</h2>
+        <div class="timeline-item">
+            <h3>Student | Associate of Science in AI </h3>
+            <h4>Saras AI Institute, Utah, USA | 2025 - Present</h4>
+            <p>- ACE Performer – Recognized for achieving highest score through dedication perseverance and academic excellence in few courses such as Powers of AI, AI in Cloud and Communication styles.</p>
+            <p>- Successfully developed and deployed multiple AI/ML projects as part of academic and practical coursework.</p>
+            <p>- Participated in AI/ML technical projects involving NLP, Machine Learning, Recommendation systems and Application deployment.</p>
+        </div>
+        <div class="timeline-item">
+            <h3>Senior CAE Analyst</h3>
+            <h4>Satyam Venture Engineering Services, Hyderabad | 2022 - Present</h4>
+            <p>- Finite Element modelling and analysis using engineering simulation tools.</p>
+            <p>- Collaborating with cross-functional teams to resolve technical issues and deliver projects within defined timelines.</p>
+            <p>- Bagged Star of the Month award for consistent commitment to timely and error free project deliveries.</p>
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Customer Sentiment Prediction & Personalized Experience Engine for Airlines</h3>
+                <p>- Built end-to-end feedback analytics pipeline: Processed 1500 passenger feedback records (Text reviews given by passengers) with Python/Pandas and performed pre-processing on feedback.</p>
+				<p>- Developed CSAT scoring model: Engineered features from structured ratings and sentiment scores (using VADER/TextBlob/BERT + Logistic Regression). Predicted passenger satisfaction (High, Low and Neutral) with ~90% accuracy. Trained and evaluated multiple machine learning classifiers using accuracy, precision, recall, F1-score and support to identify the most suitable predictive approach.</p>
+                <p>- Created Recommendation Engine: Built a recommendation system by using Topic modelling (LDA) to identify recurring service issues such as Food Supply, Flight delay, etc., and maps to actionable improvement strategies.</p>
+                <p>- Insights & Business Impact: Identified the major issue of low CSAT score is Refund issues. Proposed data driven actions may improve CSAT by some extent. Visualized trends with Matplotlib.</p>
+                <p>- Deployment: Integrated the prediction and recommendation pipeline into an interactive Gradio application and prepared the solution for deployment on Hugging Face Spaces.</p>
+                <a href="https://github.com/prasanthppk" target="_blank" class="text-link">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container bg-light">
+        <h2>Get In Touch</h2>
+        <p>I am always open to discussing new opportunities or collaborations.</p>
+        <p>Email: <a href="mailto:prasanthppk16@gmail.com">prasanthppk16@gmail.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Prasanthkumar Ponnada. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
